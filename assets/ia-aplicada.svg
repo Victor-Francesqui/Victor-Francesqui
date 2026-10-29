@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">IA aplicada por Dev Francesqui</title>
+  <desc id="desc">Graphify prepara contexto local do código para agentes de desenvolvimento. No NexFlow, um assistente de IA opcional usa ferramentas autorizadas; conhecimento versionado e regras determinísticas sustentam decisões rastreáveis e revisão humana.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#071521"/><stop offset="1" stop-color="#11152B"/></linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#31D4CE"/><stop offset="1" stop-color="#176A69"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B4A9FF"/><stop offset="1" stop-color="#6C63D9"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9BA6AE" stroke-opacity=".05"/></pattern>
+    <marker id="arrT" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="none" stroke="#31D4CE" stroke-width="1.4"/></marker>
+    <marker id="arrV" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="none" stroke="#8B7CFF" stroke-width="1.4"/></marker>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+      .flow{stroke-dasharray:6 6;animation:dash 1.8s linear infinite}.pulse{animation:pulse 1.6s ease-in-out infinite}
+      .p2{animation-delay:.5s}.p3{animation-delay:1s}.blink{animation:blink 1.2s steps(2) infinite}
+      @keyframes dash{to{stroke-dashoffset:-24}}@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}@keyframes blink{50%{opacity:.18}}
+    </style>
+  </defs>
+  <rect width="1200" height="440" rx="22" fill="url(#bg)"/><rect width="1200" height="440" rx="22" fill="url(#grid)"/>
+  <text x="34" y="42" class="mono" font-size="11" letter-spacing="2" fill="#31D4CE">// IA APLICADA</text>
+  <text x="34" y="73" font-size="24" font-weight="700" fill="#F3F6F8">Contexto para o modelo. Regras para as decisões.</text>
+  <text x="34" y="96" font-size="12" fill="#9BA6AE">Engenharia assistida e IA de produto: duas aplicações distintas, com revisão humana.</text>
+
+  <rect x="28" y="116" width="548" height="286" rx="15" fill="#0A1824" stroke="#24515A"/>
+  <text x="48" y="143" class="mono" font-size="10" letter-spacing="1.4" fill="#31D4CE">01 / DEV · GRAPHIFY</text>
+  <text x="48" y="165" font-size="15" font-weight="700" fill="#F3F6F8">O agente começa com o mapa do repositório</text>
+
+  <g>
+    <rect x="48" y="192" width="88" height="70" rx="9" fill="#0C1D2B" stroke="#24515A"/>
+    <text x="92" y="220" text-anchor="middle" font-size="11" font-weight="700" fill="#F3F6F8">Código</text><text x="92" y="239" text-anchor="middle" class="mono" font-size="9" fill="#9BA6AE">repos</text>
+    <path d="M136 227H149" stroke="#31D4CE" stroke-width="1.7" marker-end="url(#arrT)" class="flow"/><circle cx="142" cy="227" r="3" fill="#31D4CE" class="pulse"/>
+    <rect x="156" y="192" width="88" height="70" rx="9" fill="#0C1D2B" stroke="#24515A"/>
+    <text x="200" y="220" text-anchor="middle" font-size="11" font-weight="700" fill="#F3F6F8">Graphify</text><text x="200" y="239" text-anchor="middle" class="mono" font-size="9" fill="#9BA6AE">AST local</text>
+    <path d="M244 227H257" stroke="#31D4CE" stroke-width="1.7" marker-end="url(#arrT)" class="flow"/><circle cx="250" cy="227" r="3" fill="#31D4CE" class="pulse p2"/>
+    <rect x="264" y="192" width="88" height="70" rx="9" fill="#0C1D2B" stroke="#24515A"/>
+    <text x="308" y="220" text-anchor="middle" font-size="11" font-weight="700" fill="#F3F6F8">Consultas</text><text x="308" y="239" text-anchor="middle" class="mono" font-size="9" fill="#9BA6AE">path / explain</text>
+    <path d="M352 227H365" stroke="#31D4CE" stroke-width="1.7" marker-end="url(#arrT)" class="flow"/><circle cx="358" cy="227" r="3" fill="#31D4CE" class="pulse p3"/>
+    <rect x="372" y="192" width="88" height="70" rx="9" fill="#0C1D2B" stroke="#24515A"/>
+    <text x="416" y="220" text-anchor="middle" font-size="11" font-weight="700" fill="#F3F6F8">Agente</text><text x="416" y="239" text-anchor="middle" class="mono" font-size="9" fill="#9BA6AE">com contexto</text>
+    <path d="M460 227H473" stroke="#31D4CE" stroke-width="1.7" marker-end="url(#arrT)" class="flow"/><circle cx="466" cy="227" r="3" fill="#31D4CE" class="pulse"/>
+    <rect x="480" y="192" width="76" height="70" rx="9" fill="#0C1D2B" stroke="#24515A"/>
+    <text x="518" y="219" text-anchor="middle" font-size="10" font-weight="700" fill="#F3F6F8">Patch</text><text x="518" y="238" text-anchor="middle" class="mono" font-size="9" fill="#9BA6AE">+ revisão</text>
+  </g>
+  <text x="48" y="302" class="mono" font-size="10" fill="#9BA6AE">O mapa é local e não usa LLM.</text>
+  <text x="48" y="323" font-size="11" fill="#9BA6AE">Ele ajuda a encontrar relações no código e a enviar</text>
+  <text x="48" y="340" font-size="11" fill="#9BA6AE">contexto direcionado ao agente de desenvolvimento.</text>
+  <circle cx="50" cy="369" r="3" fill="#31D4CE" class="blink"/><text x="60" y="373" class="mono" font-size="9" fill="#31D4CE">SEM EXTRAÇÃO REMOTA DO CÓDIGO</text>
+
+  <rect x="592" y="116" width="580" height="286" rx="15" fill="#0A1824" stroke="#39305E"/>
+  <text x="612" y="143" class="mono" font-size="10" letter-spacing="1.4" fill="#B4A9FF">02 / PRODUTO · NEXFLOW</text>
+  <text x="612" y="165" font-size="15" font-weight="700" fill="#F3F6F8">Assistente opcional, regras sempre explícitas</text>
+
+  <rect x="612" y="190" width="120" height="54" rx="9" fill="#111B2C" stroke="#3C3A6C"/>
+  <text x="672" y="212" text-anchor="middle" font-size="10" font-weight="700" fill="#F3F6F8">Pedido + acesso</text><text x="672" y="229" text-anchor="middle" class="mono" font-size="8" fill="#9BA6AE">empresa · usuário</text>
+  <path d="M732 217H746" stroke="#8B7CFF" stroke-width="1.7" marker-end="url(#arrV)" class="flow"/><circle cx="738" cy="217" r="3" fill="#B4A9FF" class="pulse"/>
+  <rect x="753" y="190" width="120" height="54" rx="9" fill="#111B2C" stroke="#3C3A6C"/>
+  <text x="813" y="212" text-anchor="middle" font-size="10" font-weight="700" fill="#F3F6F8">Gateway IA</text><text x="813" y="229" text-anchor="middle" class="mono" font-size="8" fill="#9BA6AE">provedor trocável</text>
+  <path d="M873 217H887" stroke="#8B7CFF" stroke-width="1.7" marker-end="url(#arrV)" class="flow"/><circle cx="879" cy="217" r="3" fill="#B4A9FF" class="pulse p2"/>
+  <rect x="894" y="190" width="120" height="54" rx="9" fill="#111B2C" stroke="#3C3A6C"/>
+  <text x="954" y="212" text-anchor="middle" font-size="10" font-weight="700" fill="#F3F6F8">Ferramentas</text><text x="954" y="229" text-anchor="middle" class="mono" font-size="8" fill="#9BA6AE">validar · consultar</text>
+  <path d="M1014 217H1028" stroke="#8B7CFF" stroke-width="1.7" marker-end="url(#arrV)" class="flow"/><circle cx="1020" cy="217" r="3" fill="#B4A9FF" class="pulse p3"/>
+  <rect x="1035" y="190" width="117" height="54" rx="9" fill="#111B2C" stroke="#3C3A6C"/>
+  <text x="1093" y="212" text-anchor="middle" font-size="10" font-weight="700" fill="#F3F6F8">Proposta</text><text x="1093" y="229" text-anchor="middle" class="mono" font-size="8" fill="#9BA6AE">confirmação humana</text>
+
+  <rect x="612" y="270" width="158" height="58" rx="9" fill="#111B2C" stroke="#3C3A6C"/>
+  <text x="691" y="293" text-anchor="middle" font-size="10" font-weight="700" fill="#F3F6F8">Conhecimento ativo</text><text x="691" y="311" text-anchor="middle" class="mono" font-size="8" fill="#9BA6AE">estruturado · versionado</text>
+  <path d="M770 299H791" stroke="#8B7CFF" stroke-width="1.7" marker-end="url(#arrV)" class="flow"/>
+  <rect x="799" y="270" width="158" height="58" rx="9" fill="#111B2C" stroke="#3C3A6C"/>
+  <text x="878" y="293" text-anchor="middle" font-size="10" font-weight="700" fill="#F3F6F8">Regras determinísticas</text><text x="878" y="311" text-anchor="middle" class="mono" font-size="8" fill="#9BA6AE">sem autonomia por omissão</text>
+  <path d="M957 299H978" stroke="#8B7CFF" stroke-width="1.7" marker-end="url(#arrV)" class="flow"/>
+  <rect x="986" y="270" width="166" height="58" rx="9" fill="#111B2C" stroke="#3C3A6C"/>
+  <text x="1069" y="293" text-anchor="middle" font-size="10" font-weight="700" fill="#F3F6F8">Decisão + rastro</text><text x="1069" y="311" text-anchor="middle" class="mono" font-size="8" fill="#9BA6AE">IA · regras · resultado</text>
+
+  <path d="M612 363H1152" stroke="#344255" stroke-width="1"/>
+  <circle cx="612" cy="363" r="3" fill="#F4B740" class="blink"/>
+  <text x="623" y="367" class="mono" font-size="9" fill="#F4B740">INCERTEZA OU SEM POLÍTICA → REVISÃO HUMANA</text>
+  <rect x="1" y="1" width="1198" height="438" rx="21" fill="none" stroke="#405064" stroke-opacity=".42"/>
+</svg>

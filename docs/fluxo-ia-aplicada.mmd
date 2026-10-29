@@ -1,0 +1,26 @@
+flowchart LR
+  subgraph DEV["DESENVOLVIMENTO · CONTEXTO DO CÓDIGO"]
+    repo["Repositórios"] --> graphify["Graphify<br/>AST local · sem LLM"]
+    graphify --> query["query · path · explain"]
+    query --> agent["Agente de desenvolvimento"]
+    agent --> diff["Alteração revisável<br/>+ testes"]
+  end
+
+  subgraph APP["NEXFLOW · ASSISTENTE E DECISÕES"]
+    request["Pedido do usuário"] --> context["Empresa · usuário<br/>permissões"]
+    context --> gateway["Gateway de IA opcional<br/>Anthropic · OpenAI compatível · nenhum"]
+    gateway <--> tools["Ferramentas<br/>consultas validadas"]
+    gateway --> proposal["Ação proposta"]
+    proposal --> confirm["Confirmação humana"]
+    confirm --> handler["Handler autorizado"]
+
+    knowledge["Conhecimento estruturado<br/>versionado e aprovado"] --> rules["Regras determinísticas"]
+    rules --> engine["Motor de decisão"]
+    opinions["Pareceres estruturados<br/>regras · IA · integrações"] --> engine
+    engine --> outcome["Decisão + resultado"]
+    outcome --> trace["Rastro explicável<br/>entradas · versões · IA · intervenção · resultado"]
+    engine --> confidence{"Política ausente<br/>ou confiança insuficiente?"}
+    confidence -->|sim| review["Revisão humana"]
+    review --> candidate["Conhecimento candidato"]
+    candidate --> knowledge
+  end
