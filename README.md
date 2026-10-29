@@ -94,11 +94,17 @@ const victor = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,php&theme=dark" alt="TypeScript, JavaScript e PHP">
+<img src="https://skillicons.dev/icons?i=ts,js,php,python,go,bash&theme=dark" alt="TypeScript, JavaScript, PHP, Python, Go e Bash">
 <br/>
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs,nestjs&theme=dark" alt="React, Vite, Tailwind CSS, Node.js e NestJS">
+<img src="https://skillicons.dev/icons?i=html,css,java,ruby&theme=dark" alt="HTML, CSS, Java e Ruby, incluindo legado e componentes integrados">
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,githubactions,git,github&theme=dark" alt="PostgreSQL, MariaDB, Docker, GitHub Actions e Git">
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs,nestjs,postgres,mysql,docker,githubactions,git,github&theme=dark" alt="React, Vite, Tailwind CSS, Node.js, NestJS, bancos de dados, Docker e GitHub Actions">
+
+<br/>
+
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-824AFC?style=flat-square&logo=yaml&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-222222?style=flat-square&logo=json&logoColor=white)
 
 </div>
 
@@ -108,10 +114,13 @@ const victor = {
 <br/>
 
 ```yaml
-linguagens:     [TypeScript, PHP, JavaScript, SQL]
+linguagens:     [TypeScript, JavaScript, PHP, SQL, Python, Go, Bash]
 frontend:       [React, Vite, Tailwind CSS]
 backend:        [Node.js, NestJS, TypeORM]
 dados:          [PostgreSQL, MariaDB]
+web:            [HTML, CSS, JSX/TSX]
+configuracao:   [JSON, YAML]
+legado:         [Java/JSP, Ruby em componentes integrados]
 ferramentas:    [Docker, Git, GitHub Actions]
 ```
 
@@ -138,6 +147,16 @@ Sistema empresarial em evolução, com trabalho em módulos existentes, área do
 Serviços e APIs do ecossistema Creditall, incluindo funcionalidades integradas ao Siscredit.
 
 <sub><code>TypeScript</code> · <code>Node.js</code> · <code>NestJS</code> · <code>SQL</code></sub>
+
+### Wulfy ERP
+
+ERP e plataforma SaaS em construção, com frontend e backend em TypeScript e banco PostgreSQL.
+
+<sub><code>TypeScript</code> · <code>TSX</code> · <code>Next.js</code> · <code>NestJS</code> · <code>Prisma</code> · <code>PostgreSQL</code></sub>
+
+### Outras linguagens encontradas nos mapas
+
+Os mapas do Graphify e os arquivos dos sistemas também mostram **Python**, **Go** e **Bash** em scripts e componentes específicos. **Java/JSP** e **Ruby** aparecem em componentes legados ou de terceiros; estão listados como contato com o ecossistema, sem sugerir que sejam minha stack principal.
 
 <br/>
 
