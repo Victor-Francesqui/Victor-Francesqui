@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071521"/>
+      <stop offset=".55" stop-color="#0A1724"/>
+      <stop offset="1" stop-color="#11152B"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="170" y1="38" x2="1040" y2="275" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#31D4CE" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#8B7CFF" stop-opacity=".78"/>
+    </linearGradient>
+    <linearGradient id="line" x1="44" y1="239" x2="1154" y2="55" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#31D4CE" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#31D4CE" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#8B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#A8C5D8" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="blur" x="650" y="-70" width="700" height="470" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="58"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <ellipse cx="1000" cy="145" rx="210" ry="106" fill="url(#glow)" fill-opacity=".22" filter="url(#blur)"/>
+  <path d="M38 225C218 206 273 91 439 119s192 130 348 102 209-123 374-159" stroke="url(#line)" stroke-width="2"/>
+  <path d="M38 240C218 221 273 106 439 134s192 130 348 102 209-123 374-159" stroke="url(#line)" stroke-opacity=".42"/>
+  <g fill="#31D4CE">
+    <circle cx="439" cy="119" r="4"/><circle cx="787" cy="221" r="4"/><circle cx="1161" cy="62" r="4"/>
+  </g>
+  <g fill="#8B7CFF">
+    <circle cx="569" cy="166" r="3"/><circle cx="982" cy="181" r="3"/>
+  </g>
+  <rect x="64" y="63" width="4" height="174" rx="2" fill="url(#glow)"/>
+  <text x="91" y="139" fill="#F3F6F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="53" font-weight="750" letter-spacing="-1.7">DEV FRANCESQUI</text>
+  <text x="94" y="177" fill="#AAB8C4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3.2">SOFTWARE DEVELOPER</text>
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="1.2">
+    <text x="94" y="222" fill="#31D4CE">TYPESCRIPT</text>
+    <circle cx="194" cy="218" r="2" fill="#52677A"/>
+    <text x="210" y="222" fill="#B7AFFF">PHP</text>
+    <circle cx="258" cy="218" r="2" fill="#52677A"/>
+    <text x="274" y="222" fill="#AAB8C4">JAVASCRIPT</text>
+    <circle cx="386" cy="218" r="2" fill="#52677A"/>
+    <text x="402" y="222" fill="#AAB8C4">SQL</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="298" rx="23" stroke="#4B7484" stroke-opacity=".28" stroke-width="2"/>
+</svg>
