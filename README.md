@@ -165,7 +165,7 @@ Os mapas do Graphify e os arquivos dos sistemas também mostram **Python**, **Go
 <div align="center">
 
 <a href="https://github.com/Victor-Francesqui">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=Victor-Francesqui&show_icons=true&hide_border=true&hide_title=true&theme=transparent&icon_color=31D4CE&title_color=8B7CFF&text_color=9BA6AE&locale=pt-br" alt="Estatísticas públicas do GitHub">
+  <img height="155" src="https://github-readme-stats.vercel.app/api?username=Victor-Francesqui&show_icons=true&include_all_commits=true&hide_border=true&hide_title=true&theme=transparent&icon_color=31D4CE&title_color=8B7CFF&text_color=9BA6AE&locale=pt-br" alt="Estatísticas públicas do GitHub">
 </a>
 <a href="https://github.com/Victor-Francesqui">
   <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victor-Francesqui&layout=compact&hide_border=true&hide_title=true&theme=transparent&title_color=8B7CFF&text_color=9BA6AE&langs_count=6&locale=pt-br" alt="Linguagens nos repositórios públicos">
@@ -182,7 +182,7 @@ Os mapas do Graphify e os arquivos dos sistemas também mostram **Python**, **Go
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg">
-  <img width="92%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg" alt="Animação das contribuições no GitHub">
+  <img width="100%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg" alt="Animação das contribuições no GitHub">
 </picture>
 
 </div>

@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: Victor-Francesqui
           outputs: |
-            dist/github-snake.svg?palette=github-light
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=%236758D6&color_dots=%23F4F6FA,%23D9D2F4,%23AAA0EE,%237B69DE,%234E3BB8
+            dist/github-snake-dark.svg?color_snake=%238B7CFF&color_dots=%230C1620,%23134446,%23176A69,%232AA4A0,%2331D4CE
 
       - name: Publish generated SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
