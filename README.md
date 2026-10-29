@@ -170,6 +170,8 @@ Os mapas do Graphify e os arquivos dos sistemas também mostram **Python**, **Go
 
 <img src="./assets/ia-aplicada.svg" width="100%" alt="Fluxos de IA no desenvolvimento com Graphify e no NexFlow, com contexto, permissões, revisão humana e rastreabilidade">
 
+<sub><code>agents.office</code> — cada agente representa uma etapa real dos fluxos que construo</sub>
+
 </div>
 
 ### Engenharia assistida por contexto
@@ -182,45 +184,7 @@ O assistente recebe o contexto da empresa, do usuário e de suas permissões. Um
 
 As regras de negócio ficam em conhecimento estruturado e versionado. Um motor determinístico aplica essas regras, encaminha incertezas para revisão humana e registra um rastro explicável da decisão: entradas, versões das regras, participação da IA, intervenção humana e resultado.
 
-> **RAG** busca trechos relevantes de documentos para compor o contexto de uma resposta. No NexFlow, o fluxo principal usa conhecimento estruturado, ferramentas autorizadas e regras determinísticas; não depende de uma base vetorial. Graphify também é diferente de RAG: é um mapa do código, não um modelo de IA.
-
-<details open>
-<summary><code>cat fluxo-ia-aplicada.mmd</code></summary>
-
-<br/>
-
-```mermaid
-flowchart LR
-  subgraph DEV["DESENVOLVIMENTO · CONTEXTO DO CÓDIGO"]
-    repo["Repositórios"] --> graphify["Graphify<br/>AST local · sem LLM"]
-    graphify --> query["query · path · explain"]
-    query --> agent["Agente de desenvolvimento"]
-    agent --> diff["Alteração revisável<br/>+ testes"]
-  end
-
-  subgraph APP["NEXFLOW · ASSISTENTE E DECISÕES"]
-    request["Pedido do usuário"] --> context["Empresa · usuário<br/>permissões"]
-    context --> gateway["Gateway de IA opcional<br/>Anthropic · OpenAI compatível · nenhum"]
-    gateway <--> tools["Ferramentas<br/>consultas validadas"]
-    gateway --> proposal["Ação proposta"]
-    proposal --> confirm["Confirmação humana"]
-    confirm --> handler["Handler autorizado"]
-
-    knowledge["Conhecimento estruturado<br/>versionado e aprovado"] --> rules["Regras determinísticas"]
-    rules --> engine["Motor de decisão"]
-    opinions["Pareceres estruturados<br/>regras · IA · integrações"] --> engine
-    engine --> outcome["Decisão + resultado"]
-    outcome --> trace["Rastro explicável<br/>entradas · versões · IA · intervenção · resultado"]
-    engine --> confidence{"Política ausente<br/>ou confiança insuficiente?"}
-    confidence -->|sim| review["Revisão humana"]
-    review --> candidate["Conhecimento candidato"]
-    candidate --> knowledge
-  end
-```
-
-Fonte do diagrama: [`docs/fluxo-ia-aplicada.mmd`](docs/fluxo-ia-aplicada.mmd).
-
-</details>
+> **Como isso se relaciona ao RAG?** RAG recupera trechos de documentos para dar contexto ao modelo. No NexFlow, o fluxo principal trabalha com conhecimento estruturado e versionado, ferramentas autorizadas e regras determinísticas; Graphify, por sua vez, cria um mapa local do código para apoiar o desenvolvimento.
 
 <br/>
 
