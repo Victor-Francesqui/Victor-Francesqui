@@ -103,6 +103,8 @@ const victor = {
 <br/>
 
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![XML](https://img.shields.io/badge/XML-0060AC?style=flat-square&logo=xml&logoColor=white)
+![XSD](https://img.shields.io/badge/XSD-526577?style=flat-square)
 ![YAML](https://img.shields.io/badge/YAML-824AFC?style=flat-square&logo=yaml&logoColor=white)
 ![JSON](https://img.shields.io/badge/JSON-222222?style=flat-square&logo=json&logoColor=white)
 
@@ -120,6 +122,7 @@ backend:        [Node.js, NestJS, TypeORM]
 dados:          [PostgreSQL, MariaDB]
 web:            [HTML, CSS, JSX/TSX]
 configuracao:   [JSON, YAML]
+schemas:        [XML, XSD, SQL]
 legado:         [Java/JSP, Ruby em componentes integrados]
 ferramentas:    [Docker, Git, GitHub Actions]
 ```
