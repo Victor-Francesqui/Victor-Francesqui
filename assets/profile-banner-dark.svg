@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300"><stop stop-color="#071521"/><stop offset=".6" stop-color="#0B1220"/><stop offset="1" stop-color="#17152D"/></linearGradient>
+  <linearGradient id="a" x1="60" y1="50" x2="1100" y2="260"><stop stop-color="#31D4CE"/><stop offset="1" stop-color="#8B7CFF"/></linearGradient>
+  <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#C4D5E2" stroke-opacity=".055"/></pattern>
+ </defs>
+ <rect width="1200" height="300" rx="24" fill="url(#bg)"/><rect width="1200" height="300" rx="24" fill="url(#g)"/>
+ <path d="M590 239C720 235 728 98 852 118s105 135 230 102 52-96 118-158M580 257C710 253 718 116 842 136s105 135 230 102 52-96 118-158" stroke="url(#a)" stroke-opacity=".43" stroke-width="2"/>
+ <circle cx="852" cy="118" r="4" fill="#31D4CE"/><circle cx="1082" cy="238" r="4" fill="#8B7CFF"/>
+ <rect x="63" y="62" width="4" height="176" rx="2" fill="url(#a)"/>
+ <text x="91" y="139" fill="#F3F6F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="53" font-weight="750" letter-spacing="-1.7">DEV FRANCESQUI</text>
+ <text x="95" y="178" fill="#AAB8C4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3.1">SOFTWARE DEVELOPER</text>
+ <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="1.2">
+  <text x="95" y="222" fill="#31D4CE">TYPESCRIPT</text><circle cx="198" cy="218" r="2" fill="#718294"/>
+  <text x="214" y="222" fill="#B9B0FF">PHP</text><circle cx="262" cy="218" r="2" fill="#718294"/>
+  <text x="278" y="222" fill="#AAB8C4">JAVASCRIPT</text><circle cx="390" cy="218" r="2" fill="#718294"/>
+  <text x="406" y="222" fill="#AAB8C4">SQL</text>
+ </g>
+ <rect x="1" y="1" width="1198" height="298" rx="23" stroke="#4B7484" stroke-opacity=".28" stroke-width="2"/>
+</svg>

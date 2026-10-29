@@ -1,72 +1,189 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="Dev Francesqui — Software Developer" width="100%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg">
+  <img src="./assets/profile-banner-dark.svg" alt="Dev Francesqui — Software Developer" width="100%">
+</picture>
+
+<br/>
+
+<a href="https://github.com/Victor-Francesqui">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=31D4CE&center=true&vCenter=true&width=760&lines=%3E+APIs+e+integra%C3%A7%C3%B5es;%3E+Sistemas+web+e+evolu%C3%A7%C3%A3o+de+legados;%3E+TypeScript+%C2%B7+PHP+%C2%B7+JavaScript;%3E+NexFlow+%C2%B7+Siscredit+%C2%B7+Creditall+Services" alt="Frases animadas sobre desenvolvimento, tecnologias e projetos">
+</a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/foco-sistemas_web_e_APIs-31D4CE?style=flat-square&labelColor=071521" alt="Foco em sistemas web e APIs">
+<img src="https://komarev.com/ghpvc/?username=Victor-Francesqui&label=visitas&color=8B7CFF&style=flat-square&labelColor=071521" alt="Visualizações do perfil">
+
+<br/><br/>
+
+<code><a href="#-sobre">./sobre</a></code> &nbsp;
+<code><a href="#-competências">./competências</a></code> &nbsp;
+<code><a href="#-stack">./stack</a></code> &nbsp;
+<code><a href="#-projetos">./projetos</a></code> &nbsp;
+<code><a href="#-atividade">./atividade</a></code> &nbsp;
+<code><a href="#-contato">./contato</a></code>
+
 </div>
+
+<br/>
+
+## `$` sobre
+
+```ts
+const victor = {
+  role: "Desenvolvedor de software",
+  focus: ["sistemas empresariais", "APIs", "modernização de aplicações"],
+  linguagens: ["TypeScript", "PHP", "JavaScript", "SQL"],
+  abordagem: "entender o problema → evoluir a solução → validar o resultado",
+};
+```
+
+> Gosto de transformar necessidades reais da operação em software claro, útil e sustentável.
+
+<br/>
+
+## `$` competências
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**`01` · Aplicações**
+
+```diff
++ Interfaces web com React
++ APIs e serviços com NestJS
++ Integrações entre sistemas
++ Evolução de funcionalidades
+```
+
+</td>
+<td width="33%" valign="top">
+
+**`02` · Dados**
+
+```diff
++ Consultas e modelagem SQL
++ PostgreSQL e MariaDB
++ Persistência com TypeORM
++ Integração com dados existentes
+```
+
+</td>
+<td width="33%" valign="top">
+
+**`03` · Sistemas**
+
+```diff
++ ERPs e aplicações empresariais
++ Manutenção de sistemas legados
++ Modernização incremental
++ Fluxos de negócio e regras
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## `$` stack
 
 <div align="center">
 
-# Dev Francesqui
-
-**Desenvolvimento de software · Aplicações web · APIs**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Victor--Francesqui-181717?style=for-the-badge&logo=github)](https://github.com/Victor-Francesqui)
+<img src="https://skillicons.dev/icons?i=ts,js,php&theme=dark" alt="TypeScript, JavaScript e PHP">
+<br/>
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs,nestjs&theme=dark" alt="React, Vite, Tailwind CSS, Node.js e NestJS">
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,githubactions,git,github&theme=dark" alt="PostgreSQL, MariaDB, Docker, GitHub Actions e Git">
 
 </div>
 
-## Sobre
+<details>
+<summary><code>cat stack.yml</code></summary>
 
-Desenvolvedor de software com experiência prática em sistemas web, APIs e evolução de aplicações em produção. Trabalho em projetos novos e sistemas existentes, buscando entregar soluções úteis, bem integradas e sustentáveis.
+<br/>
 
-## Tecnologias
+```yaml
+linguagens:     [TypeScript, PHP, JavaScript, SQL]
+frontend:       [React, Vite, Tailwind CSS]
+backend:        [Node.js, NestJS, TypeORM]
+dados:          [PostgreSQL, MariaDB]
+ferramentas:    [Docker, Git, GitHub Actions]
+```
 
-Linguagens identificadas nos projetos e alterações que venho realizando:
+</details>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+<br/>
 
-**Stack e ferramentas:** React · NestJS · Node.js · PostgreSQL · MariaDB · TypeORM · Docker · GitHub Actions
-
-## Projetos em destaque
+## `$` projetos
 
 ### NexFlow
 
-ERP web para gestão de negócios, com módulos financeiros, fiscais e operacionais. Trabalho envolvendo frontend React, APIs NestJS e persistência em PostgreSQL.
+ERP web para gestão de negócios, com foco em varejo óptico. Trabalho em módulos e integrações de uma aplicação com frontend React, APIs NestJS e PostgreSQL.
 
-**Tecnologias:** TypeScript, React, NestJS, PostgreSQL, TypeORM, Docker
+<sub><code>TypeScript</code> · <code>React</code> · <code>NestJS</code> · <code>PostgreSQL</code> · <code>TypeORM</code></sub>
 
 ### Siscredit
 
-Sistema de negócio em evolução, com manutenção e novas funcionalidades em módulos existentes, incluindo áreas do cliente e rotinas de ponto.
+Sistema empresarial em evolução, com trabalho em módulos existentes, área do cliente e funcionalidades de ponto.
 
-**Tecnologias:** PHP, JavaScript, SQL, MariaDB
+<sub><code>PHP</code> · <code>JavaScript</code> · <code>SQL</code> · <code>MariaDB</code></sub>
 
 ### Creditall Services
 
-Serviços e APIs que dão suporte aos sistemas da Creditall, incluindo funcionalidades compartilhadas com o Siscredit.
+Serviços e APIs do ecossistema Creditall, incluindo funcionalidades integradas ao Siscredit.
 
-**Tecnologias:** TypeScript, Node.js, NestJS, SQL
+<sub><code>TypeScript</code> · <code>Node.js</code> · <code>NestJS</code> · <code>SQL</code></sub>
 
-## Atividade no GitHub
+<br/>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg" />
-    <img alt="Animação das contribuições de Victor Francesqui no GitHub" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg" width="100%" />
-  </picture>
-</div>
+## `$` atividade
 
 <div align="center">
 
-*Construindo, aprendendo e melhorando um commit de cada vez.*
+<a href="https://github.com/Victor-Francesqui">
+  <img height="155" src="https://github-readme-stats.vercel.app/api?username=Victor-Francesqui&show_icons=true&hide_border=true&hide_title=true&theme=transparent&icon_color=31D4CE&title_color=8B7CFF&text_color=9BA6AE&locale=pt-br" alt="Estatísticas públicas do GitHub">
+</a>
+<a href="https://github.com/Victor-Francesqui">
+  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victor-Francesqui&layout=compact&hide_border=true&hide_title=true&theme=transparent&title_color=8B7CFF&text_color=9BA6AE&langs_count=6&locale=pt-br" alt="Linguagens nos repositórios públicos">
+</a>
+
+<br/>
+
+<a href="https://github.com/Victor-Francesqui">
+  <img width="72%" src="https://streak-stats.demolab.com?user=Victor-Francesqui&hide_border=true&background=00000000&ring=8B7CFF&fire=31D4CE&currStreakLabel=8B7CFF&sideLabels=9BA6AE&currStreakNum=F3F6F8&sideNums=F3F6F8&dates=9BA6AE&locale=pt_BR" alt="Sequência de contribuições">
+</a>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg">
+  <img width="92%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg" alt="Animação das contribuições no GitHub">
+</picture>
 
 </div>
 
----
+<br/>
+
+## `$` contato
 
 <div align="center">
 
-📍 Brasil · Aberto a conexões e colaborações em desenvolvimento de software
+<a href="https://github.com/Victor-Francesqui">
+  <img src="https://img.shields.io/badge/GitHub-071521?style=for-the-badge&logo=github&logoColor=31D4CE" alt="GitHub">
+</a>
+
+<br/><br/>
+
+```console
+$ echo $MOTTO
+Entender o problema. Construir a solução. Melhorar continuamente.
+```
 
 </div>
+
