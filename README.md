@@ -252,11 +252,7 @@ flowchart LR
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg">
-  <img width="100%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake.svg" alt="Animação das contribuições no GitHub">
-</picture>
+<img width="100%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake-matrix.svg" alt="Painel com tema Matrix: uma cobrinha verde neon percorre o gráfico de contribuições do GitHub">
 
 </div>
 
@@ -277,6 +273,6 @@ $ echo $MOTTO
 Entender o problema. Construir a solução. Melhorar continuamente.
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:31D4CE,100:8B7CFF&height=90&section=footer" width="100%" alt="">
+<img src="./assets/footer-matrix.svg" width="100%" alt="">
 
 </div>

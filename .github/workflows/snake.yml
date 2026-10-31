@@ -29,10 +29,7 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Victor-Francesqui
-          outputs: |
-            dist/github-snake-raw.svg
-            dist/github-snake.svg?color_snake=%236758D6&color_dots=%23F4F6FA,%23D9D2F4,%23AAA0EE,%237B69DE,%234E3BB8
-            dist/github-snake-dark.svg?color_snake=%238B7CFF&color_dots=%230C1620,%23134446,%23176A69,%232AA4A0,%2331D4CE
+          outputs: dist/github-snake-raw.svg
 
       - name: Apply Matrix theme to the snake
         run: python3 scripts/theme_snake.py --input dist/github-snake-raw.svg --output dist/github-snake-matrix.svg
