@@ -11,17 +11,19 @@
     <style>
       text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.ui{font-family:Inter,Segoe UI,Arial,sans-serif}
       .dash{stroke-dasharray:5 7;animation:dash 2s linear infinite}.float{animation:float 2.4s ease-in-out infinite}.float2{animation:float 2.4s ease-in-out -1.2s infinite}.blink{animation:blink 1.4s steps(2) infinite}
+      .log{animation:log 12s infinite both}.l1{animation-delay:.2s}.l2{animation-delay:.8s}.l3{animation-delay:1.4s}.l4{animation-delay:2s}.l5{animation-delay:2.6s}.l6{animation-delay:3.2s}.l7{animation-delay:3.8s}
+      @keyframes log{0%{opacity:0}4%,88%{opacity:1}96%,100%{opacity:0}}@media (prefers-reduced-motion:reduce){.dash,.float,.float2,.blink,.log{animation:none}}
       @keyframes dash{to{stroke-dashoffset:-24}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}@keyframes blink{50%{opacity:.25}}
     </style>
   </defs>
   <rect width="1080" height="460" rx="18" fill="url(#bg)"/>
   <rect width="1080" height="460" rx="18" fill="url(#dots)"/>
-  <text x="28" y="32" font-size="10" letter-spacing="2" fill="#8B7CFF">// AGENTS.OFFICE</text>
+  <text x="28" y="32" font-size="11" letter-spacing="2" fill="#8B7CFF">// AGENTS.OFFICE</text>
   <text x="28" y="61" class="ui" font-size="24" font-weight="700" fill="#F1F4FA">IA aplicada, do código ao produto</text>
-  <text x="28" y="81" class="ui" font-size="11" fill="#96A1B4">desenvolvimento assistido e fluxos de decisão no NexFlow</text>
+  <text x="28" y="81" class="ui" font-size="13" fill="#96A1B4">desenvolvimento assistido e fluxos de decisão no NexFlow</text>
 
   <!-- legenda -->
-  <g class="ui" font-size="10" fill="#D9E0EB">
+  <g font-size="11" fill="#D9E0EB">
     <rect x="30" y="112" width="7" height="7" fill="#31D4CE"/><text x="45" y="120">Graphify · mapa local do código</text>
     <rect x="30" y="135" width="7" height="7" fill="#8B7CFF"/><text x="45" y="143">Gateway de IA opcional</text>
     <rect x="30" y="158" width="7" height="7" fill="#F4B740"/><text x="45" y="166">Revisão e confirmação humana</text>
@@ -69,39 +71,37 @@
   </g>
 
   <!-- rótulos -->
-  <g font-size="8">
-    <g class="float"><rect x="290" y="218" width="87" height="17" rx="3" fill="#101722" stroke="#31D4CE"/><text x="298" y="229" fill="#D8F9F7">Graphify · contexto</text></g>
-    <g class="float2"><rect x="439" y="226" width="94" height="17" rx="3" fill="#101722" stroke="#8B7CFF"/><text x="447" y="237" fill="#E1DCFF">Agente de código</text></g>
+  <g font-size="9">
+    <g class="float"><rect x="280" y="218" width="117" height="17" rx="3" fill="#101722" stroke="#31D4CE"/><text x="288" y="229" fill="#D8F9F7">Graphify · contexto</text></g>
+    <g class="float2"><rect x="439" y="226" width="100" height="17" rx="3" fill="#101722" stroke="#8B7CFF"/><text x="447" y="237" fill="#E1DCFF">Agente de código</text></g>
     <g class="float"><rect x="568" y="246" width="100" height="17" rx="3" fill="#101722" stroke="#F4B740"/><text x="576" y="257" fill="#FFF0C9">Ação · confirmar</text></g>
-    <g class="float2"><rect x="475" y="321" width="115" height="17" rx="3" fill="#101722" stroke="#46D17D"/><text x="483" y="332" fill="#D4FFE2">Conhecimento ativo</text></g>
-    <rect x="317" y="336" width="82" height="16" rx="3" fill="#101722" stroke="#506078"/><text x="325" y="347" fill="#D8E0EA">Patch revisável</text>
-    <rect x="611" y="359" width="94" height="16" rx="3" fill="#101722" stroke="#506078"/><text x="619" y="370" fill="#D8E0EA">Revisão humana</text>
+    <g class="float2"><rect x="475" y="321" width="112" height="17" rx="3" fill="#101722" stroke="#46D17D"/><text x="483" y="332" fill="#D4FFE2">Conhecimento ativo</text></g>
+    <rect x="317" y="336" width="95" height="16" rx="3" fill="#101722" stroke="#506078"/><text x="325" y="347" fill="#D8E0EA">Patch revisável</text>
+    <rect x="611" y="359" width="90" height="16" rx="3" fill="#101722" stroke="#506078"/><text x="619" y="370" fill="#D8E0EA">Revisão humana</text>
   </g>
 
   <!-- pequenos robôs em pixel art -->
-  <g transform="translate(390 302)"><rect x="-8" y="-17" width="16" height="13" fill="#F4B740"/><rect x="-10" y="-15" width="3" height="9" fill="#FFE39B"/><rect x="-5" y="-13" width="3" height="3" fill="#141827"/><rect x="3" y="-13" width="3" height="3" fill="#141827"/><rect x="-6" y="-2" width="12" height="10" fill="#A16E22"/><rect x="-10" y="8" width="7" height="5" fill="#1A2030"/><rect x="3" y="8" width="7" height="5" fill="#1A2030"/><rect x="0" y="-21" width="2" height="4" fill="#F4B740"/><rect x="-1" y="-23" width="4" height="3" fill="#31D4CE" class="blink"/></g>
-  <g transform="translate(527 290)"><rect x="-8" y="-17" width="16" height="13" fill="#8B7CFF"/><rect x="-10" y="-15" width="3" height="9" fill="#C5BCFF"/><rect x="-5" y="-13" width="3" height="3" fill="#111827"/><rect x="3" y="-13" width="3" height="3" fill="#111827"/><rect x="-6" y="-2" width="12" height="10" fill="#5C52B5"/><rect x="-10" y="8" width="7" height="5" fill="#1A2030"/><rect x="3" y="8" width="7" height="5" fill="#1A2030"/></g>
-  <g transform="translate(651 338)"><rect x="-8" y="-17" width="16" height="13" fill="#31D4CE"/><rect x="-10" y="-15" width="3" height="9" fill="#9AF1EC"/><rect x="-5" y="-13" width="3" height="3" fill="#111827"/><rect x="3" y="-13" width="3" height="3" fill="#111827"/><rect x="-6" y="-2" width="12" height="10" fill="#176A69"/><rect x="-10" y="8" width="7" height="5" fill="#1A2030"/><rect x="3" y="8" width="7" height="5" fill="#1A2030"/></g>
+  <g class="float"><g transform="translate(390 302)"><rect x="-8" y="-17" width="16" height="13" fill="#F4B740"/><rect x="-10" y="-15" width="3" height="9" fill="#FFE39B"/><rect x="-5" y="-13" width="3" height="3" fill="#141827"/><rect x="3" y="-13" width="3" height="3" fill="#141827"/><rect x="-6" y="-2" width="12" height="10" fill="#A16E22"/><rect x="-10" y="8" width="7" height="5" fill="#1A2030"/><rect x="3" y="8" width="7" height="5" fill="#1A2030"/><rect x="0" y="-21" width="2" height="4" fill="#F4B740"/><rect x="-1" y="-23" width="4" height="3" fill="#31D4CE" class="blink"/></g></g>
+  <g class="float2"><g transform="translate(527 290)"><rect x="-8" y="-17" width="16" height="13" fill="#8B7CFF"/><rect x="-10" y="-15" width="3" height="9" fill="#C5BCFF"/><rect x="-5" y="-13" width="3" height="3" fill="#111827"/><rect x="3" y="-13" width="3" height="3" fill="#111827"/><rect x="-6" y="-2" width="12" height="10" fill="#5C52B5"/><rect x="-10" y="8" width="7" height="5" fill="#1A2030"/><rect x="3" y="8" width="7" height="5" fill="#1A2030"/></g></g>
+  <g class="float"><g transform="translate(651 338)"><rect x="-8" y="-17" width="16" height="13" fill="#31D4CE"/><rect x="-10" y="-15" width="3" height="9" fill="#9AF1EC"/><rect x="-5" y="-13" width="3" height="3" fill="#111827"/><rect x="3" y="-13" width="3" height="3" fill="#111827"/><rect x="-6" y="-2" width="12" height="10" fill="#176A69"/><rect x="-10" y="8" width="7" height="5" fill="#1A2030"/><rect x="3" y="8" width="7" height="5" fill="#1A2030"/></g></g>
 
   <!-- agents log: estados explicativos, sem métricas fictícias -->
   <rect x="807" y="39" width="246" height="244" rx="10" fill="#151D2B" stroke="#303A50"/>
   <circle cx="824" cy="55" r="4" fill="#FF6E6E"/><circle cx="838" cy="55" r="4" fill="#F4B740"/><circle cx="852" cy="55" r="4" fill="#46D17D"/>
-  <text x="928" y="58" font-size="8" fill="#7C899E">agents.log</text>
+  <text x="928" y="58" font-size="10" fill="#7C899E">agents.log</text>
   <path d="M807 72H1053" stroke="#303A50"/>
-  <g font-size="9">
-    <text x="821" y="94" fill="#31D4CE">[dev]</text><text x="854" y="94" fill="#D7DEEA">mapa local do código</text>
-    <text x="821" y="119" fill="#31D4CE">[ctx]</text><text x="854" y="119" fill="#D7DEEA">query · path · explain</text>
-    <text x="821" y="144" fill="#8B7CFF">[ia]</text><text x="854" y="144" fill="#D7DEEA">gateway opcional</text>
-    <text x="821" y="169" fill="#8B7CFF">[tool]</text><text x="854" y="169" fill="#D7DEEA">acesso validado</text>
-    <text x="821" y="194" fill="#46D17D">[rule]</text><text x="854" y="194" fill="#D7DEEA">conhecimento versionado</text>
-    <text x="821" y="219" fill="#F4B740">[human]</text><text x="870" y="219" fill="#D7DEEA">confirma ou revisa</text>
-    <text x="821" y="252" fill="#95A1B4"># proposta antes de executar</text>
+  <g font-size="11">
+    <g class="log l1"><text x="821" y="94" fill="#31D4CE">[dev]</text><text x="878" y="94" fill="#D7DEEA">mapa local do código</text></g>
+    <g class="log l2"><text x="821" y="119" fill="#31D4CE">[ctx]</text><text x="878" y="119" fill="#D7DEEA">query · path · explain</text></g>
+    <g class="log l3"><text x="821" y="144" fill="#8B7CFF">[ia]</text><text x="878" y="144" fill="#D7DEEA">gateway opcional</text></g>
+    <g class="log l4"><text x="821" y="169" fill="#8B7CFF">[tool]</text><text x="878" y="169" fill="#D7DEEA">acesso validado</text></g>
+    <g class="log l5"><text x="821" y="194" fill="#46D17D">[rule]</text><text x="878" y="194" fill="#D7DEEA">conhecimento versionado</text></g>
+    <g class="log l6"><text x="821" y="219" fill="#F4B740">[human]</text><text x="878" y="219" fill="#D7DEEA">confirma ou revisa</text></g>
+    <text class="log l7" x="821" y="252" fill="#95A1B4"># proposta antes de executar</text>
   </g>
   <rect x="807" y="299" width="246" height="72" rx="9" fill="#151D2B" stroke="#303A50"/>
-  <text x="824" y="322" font-size="8" letter-spacing="1" fill="#95A1B4">PRINCÍPIO</text>
+  <text x="824" y="322" font-size="10" letter-spacing="1" fill="#95A1B4">PRINCÍPIO</text>
   <text x="824" y="344" class="ui" font-size="13" font-weight="700" fill="#F1F4FA">Contexto + governança</text>
-  <text x="824" y="360" class="ui" font-size="10" fill="#95A1B4">decisões rastreáveis, com revisão humana</text>
-  <path d="M28 421H1053" stroke="#8B7CFF" stroke-opacity=".7"/>
-  <text x="540" y="442" text-anchor="middle" class="ui" font-size="11" fill="#B8C1CF">agents.office — cada agente representa uma etapa real dos fluxos que construo</text>
+  <text x="824" y="360" class="ui" font-size="11" fill="#95A1B4">decisões rastreáveis, com revisão humana</text>
   <rect x=".5" y=".5" width="1079" height="459" rx="17.5" fill="none" stroke="#46516A" stroke-opacity=".45"/>
 </svg>

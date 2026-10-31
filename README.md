@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg">
-  <img src="./assets/profile-banner-dark.svg" alt="Dev Francesqui — Software Developer" width="100%">
+  <img src="./assets/profile-banner-dark.svg" alt="Dev Francesqui — Desenvolvedor de software" width="100%">
 </picture>
 
 <br/>
@@ -15,7 +15,8 @@
 <br/>
 
 <img src="https://img.shields.io/badge/foco-sistemas_web_e_APIs-31D4CE?style=flat-square&labelColor=071521" alt="Foco em sistemas web e APIs">
-<img src="https://komarev.com/ghpvc/?username=Victor-Francesqui&label=visitas&color=8B7CFF&style=flat-square&labelColor=071521" alt="Visualizações do perfil">
+<img src="https://img.shields.io/badge/IA-aplicada_ao_produto-8B7CFF?style=flat-square&labelColor=071521" alt="IA aplicada ao produto">
+<img src="https://komarev.com/ghpvc/?username=Victor-Francesqui&label=visitas&color=2AA4A0&style=flat-square&labelColor=071521" alt="Visualizações do perfil">
 
 <br/><br/>
 
@@ -35,10 +36,10 @@
 
 ```ts
 const victor = {
-  role: "Desenvolvedor de software",
-  focus: ["sistemas empresariais", "APIs", "modernização de aplicações"],
+  role:       "Desenvolvedor de software",
+  focus:      ["sistemas empresariais", "APIs", "modernização de aplicações"],
   linguagens: ["TypeScript", "PHP", "JavaScript", "SQL"],
-  abordagem: "entender o problema → evoluir a solução → validar o resultado",
+  abordagem:  "entender o problema → evoluir a solução → validar o resultado",
 };
 ```
 
@@ -55,10 +56,10 @@ const victor = {
 **`01` · Aplicações**
 
 ```diff
-+ Interfaces web com React
-+ APIs e serviços com NestJS
-+ Integrações entre sistemas
-+ Evolução de funcionalidades
++ Interfaces em React
++ APIs com NestJS
++ Integração de sistemas
++ Novas funcionalidades
 ```
 
 </td>
@@ -67,10 +68,10 @@ const victor = {
 **`02` · Dados**
 
 ```diff
-+ Consultas e modelagem SQL
++ Modelagem e SQL
 + PostgreSQL e MariaDB
-+ Persistência com TypeORM
-+ Integração com dados existentes
++ Persistência TypeORM
++ Dados já existentes
 ```
 
 </td>
@@ -79,10 +80,10 @@ const victor = {
 **`03` · Sistemas**
 
 ```diff
-+ ERPs e aplicações empresariais
-+ Manutenção de sistemas legados
-+ Modernização incremental
-+ Fluxos de negócio e regras
++ ERPs empresariais
++ Sistemas legados
++ Modernização gradual
++ Regras de negócio
 ```
 
 </td>
@@ -95,15 +96,17 @@ const victor = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,php,python,go,bash&theme=dark" alt="TypeScript, JavaScript, PHP, Python, Go e Bash">
+<img src="https://skillicons.dev/icons?i=ts,js,php,python,go,bash,html,css&theme=dark" alt="TypeScript, JavaScript, PHP, Python, Go, Bash, HTML e CSS">
 <br/>
-<img src="https://skillicons.dev/icons?i=html,css,java,ruby&theme=dark" alt="HTML, CSS, Java e Ruby, incluindo legado e componentes integrados">
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,nodejs,nestjs,prisma&theme=dark" alt="React, Next.js, Vite, Tailwind CSS, Node.js, NestJS e Prisma">
 <br/>
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs,nestjs,postgres,mysql,docker,githubactions,git,github&theme=dark" alt="React, Vite, Tailwind CSS, Node.js, NestJS, bancos de dados, Docker e GitHub Actions">
+<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,linux,githubactions,git,github&theme=dark" alt="PostgreSQL, MySQL, Docker, Linux, GitHub Actions, Git e GitHub">
 
 <br/>
 
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![TypeORM](https://img.shields.io/badge/TypeORM-E83524?style=flat-square&logo=typeorm&logoColor=white)
 ![XML](https://img.shields.io/badge/XML-0060AC?style=flat-square&logo=xml&logoColor=white)
 ![XSD](https://img.shields.io/badge/XSD-526577?style=flat-square)
 ![YAML](https://img.shields.io/badge/YAML-824AFC?style=flat-square&logo=yaml&logoColor=white)
@@ -117,15 +120,16 @@ const victor = {
 <br/>
 
 ```yaml
-linguagens:     [TypeScript, JavaScript, PHP, SQL, Python, Go, Bash]
-frontend:       [React, Vite, Tailwind CSS]
-backend:        [Node.js, NestJS, TypeORM]
+linguagens:     [TypeScript, JavaScript, PHP, SQL]
+frontend:       [React, Next.js, Vite, Tailwind CSS]
+backend:        [Node.js, NestJS, TypeORM, Prisma]
 dados:          [PostgreSQL, MariaDB]
 web:            [HTML, CSS, JSX/TSX, Vue SFC]
+scripts:        [Python, Go, Bash]
 configuracao:   [JSON, YAML]
 schemas:        [XML, XSD, SQL]
-legado:         [Java/JSP, Ruby em componentes integrados]
-ferramentas:    [Docker, Git, GitHub Actions]
+contato-legado: [Java/JSP, Ruby em componentes integrados]
+ferramentas:    [Docker, Linux, Git, GitHub Actions]
 ```
 
 </details>
@@ -134,33 +138,48 @@ ferramentas:    [Docker, Git, GitHub Actions]
 
 ## `$` projetos
 
-### NexFlow
+<table>
+<tr>
+<td width="50%" valign="top">
 
-ERP web para gestão de negócios, com foco em varejo óptico. Trabalho em módulos e integrações de uma aplicação com frontend React, APIs NestJS e PostgreSQL.
+**`nexflow`** · ERP web
 
-<sub><code>TypeScript</code> · <code>React</code> · <code>NestJS</code> · <code>PostgreSQL</code> · <code>TypeORM</code></sub>
+ERP para gestão de negócios, com foco em varejo óptico. Trabalho em módulos e integrações.
 
-### Siscredit
+<sub><code>TypeScript</code> <code>React</code> <code>NestJS</code> <code>PostgreSQL</code> <code>TypeORM</code></sub>
 
-Sistema empresarial em evolução, com trabalho em módulos existentes, área do cliente e funcionalidades de ponto.
+</td>
+<td width="50%" valign="top">
 
-<sub><code>PHP</code> · <code>JavaScript</code> · <code>SQL</code> · <code>MariaDB</code></sub>
+**`siscredit`** · sistema empresarial
 
-### Creditall Services
+Evolução de módulos existentes, área do cliente e funcionalidades de ponto.
 
-Serviços e APIs do ecossistema Creditall, incluindo funcionalidades integradas ao Siscredit.
+<sub><code>PHP</code> <code>JavaScript</code> <code>SQL</code> <code>MariaDB</code></sub>
 
-<sub><code>TypeScript</code> · <code>Node.js</code> · <code>NestJS</code> · <code>SQL</code></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### Wulfy ERP
+**`creditall-services`** · serviços e APIs
 
-ERP e plataforma SaaS em construção, com frontend e backend em TypeScript e banco PostgreSQL.
+Serviços do ecossistema Creditall, incluindo funcionalidades integradas ao Siscredit.
 
-<sub><code>TypeScript</code> · <code>TSX</code> · <code>Next.js</code> · <code>NestJS</code> · <code>Prisma</code> · <code>PostgreSQL</code></sub>
+<sub><code>TypeScript</code> <code>Node.js</code> <code>NestJS</code> <code>SQL</code></sub>
 
-### Outras linguagens encontradas nos mapas
+</td>
+<td width="50%" valign="top">
 
-Os mapas do Graphify e os arquivos dos sistemas também mostram **Python**, **Go** e **Bash** em scripts e componentes específicos. **Java/JSP** e **Ruby** aparecem em componentes legados ou de terceiros; estão listados como contato com o ecossistema, sem sugerir que sejam minha stack principal.
+**`wulfy-erp`** · SaaS em construção
+
+ERP e plataforma SaaS, com frontend e backend em TypeScript e banco PostgreSQL.
+
+<sub><code>TypeScript</code> <code>Next.js</code> <code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code></sub>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -174,17 +193,50 @@ Os mapas do Graphify e os arquivos dos sistemas também mostram **Python**, **Go
 
 </div>
 
-### Engenharia assistida por contexto
+<br/>
 
-Uso o **Graphify** para criar mapas locais do código a partir da estrutura dos repositórios. Consultas como `query`, `path` e `explain` ajudam a localizar dependências e preparar contexto para agentes de desenvolvimento antes de uma alteração. O Graphify faz a extração do mapa sem chamar um LLM; ele organiza o contexto que o agente vai usar.
+IA em dois lugares: **no desenvolvimento**, para preparar contexto antes de cada alteração, e **no produto**, com permissões, regras versionadas e revisão humana.
 
-### IA no NexFlow
+```bash
+$ ia --fluxos
+  ├── graphify      mapa local do código, extraído da estrutura e sem chamar LLM
+  ├── contexto      query, path e explain para localizar dependências
+  ├── gateway       Anthropic, provedores compatíveis com OpenAI ou IA desligada
+  ├── privacidade   dados pessoais mascarados antes da chamada
+  ├── ferramentas   consultas e ferramentas validadas
+  ├── regras        conhecimento estruturado e motor determinístico
+  └── rastro        entradas, versões das regras, participação da IA e resultado
+```
 
-O assistente recebe o contexto da empresa, do usuário e de suas permissões. Um gateway permite usar Anthropic, provedores compatíveis com OpenAI ou desligar a IA. Dados pessoais são mascarados antes da chamada; consultas e ferramentas são validadas; ações retornam como propostas para confirmação humana.
+<details open>
+<summary><code>cat fluxo-nexflow.mmd</code></summary>
 
-As regras de negócio ficam em conhecimento estruturado e versionado. Um motor determinístico aplica essas regras, encaminha incertezas para revisão humana e registra um rastro explicável da decisão: entradas, versões das regras, participação da IA, intervenção humana e resultado.
+<br/>
 
-> **Como isso se relaciona ao RAG?** RAG recupera trechos de documentos para dar contexto ao modelo. No NexFlow, o fluxo principal trabalha com conhecimento estruturado e versionado, ferramentas autorizadas e regras determinísticas; Graphify, por sua vez, cria um mapa local do código para apoiar o desenvolvimento.
+```mermaid
+flowchart LR
+    U([Usuário]) --> C[Contexto e permissões]
+    C --> M[Mascaramento de dados]
+    M --> G{{Gateway de IA}}
+    G --> F[Ferramentas validadas]
+    F --> P[Proposta de ação]
+    P --> H([Confirmação humana])
+
+    K[(Conhecimento versionado)] --> R[Motor determinístico]
+    R -- incerteza --> H
+    H --> T[(Rastro da decisão)]
+    R --> T
+
+    classDef ai fill:#8B7CFF,stroke:#B9B0FF,color:#071521
+    classDef data fill:#0C1D2B,stroke:#31D4CE,color:#F3F6F8
+    class G,P ai
+    class K,T data
+```
+
+</details>
+
+> [!IMPORTANT]
+> No NexFlow, a IA propõe e a pessoa confirma. Regras determinísticas e o rastro de cada decisão ficam fora do modelo.
 
 <br/>
 
@@ -192,18 +244,11 @@ As regras de negócio ficam em conhecimento estruturado e versionado. Um motor d
 
 <div align="center">
 
-<a href="https://github.com/Victor-Francesqui">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=Victor-Francesqui&show_icons=true&include_all_commits=true&hide_border=true&hide_title=true&theme=transparent&icon_color=31D4CE&title_color=8B7CFF&text_color=9BA6AE&locale=pt-br" alt="Estatísticas públicas do GitHub">
-</a>
-<a href="https://github.com/Victor-Francesqui">
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victor-Francesqui&layout=compact&hide_border=true&hide_title=true&theme=transparent&title_color=8B7CFF&text_color=9BA6AE&langs_count=6&locale=pt-br" alt="Linguagens nos repositórios públicos">
-</a>
-
-<br/>
-
-<a href="https://github.com/Victor-Francesqui">
-  <img width="72%" src="https://streak-stats.demolab.com?user=Victor-Francesqui&hide_border=true&background=00000000&ring=8B7CFF&fire=31D4CE&currStreakLabel=8B7CFF&sideLabels=9BA6AE&currStreakNum=F3F6F8&sideNums=F3F6F8&dates=9BA6AE&locale=pt_BR" alt="Sequência de contribuições">
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/activity-light.svg">
+  <img width="100%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/activity-dark.svg" alt="Contribuições, dias ativos, maior sequência e repositórios públicos">
+</picture>
 
 <br/><br/>
 
@@ -232,5 +277,6 @@ $ echo $MOTTO
 Entender o problema. Construir a solução. Melhorar continuamente.
 ```
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:31D4CE,100:8B7CFF&height=90&section=footer" width="100%" alt="">
 
+</div>

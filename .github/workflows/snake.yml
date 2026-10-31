@@ -1,4 +1,4 @@
-name: Generate contribution animation
+name: Generate profile activity
 
 on:
   schedule:
@@ -15,6 +15,16 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Test activity card generator
+        run: python3 -m unittest discover -s tests
+
+      - name: Generate activity cards
+        run: python3 scripts/generate_activity_card.py --login Victor-Francesqui --out dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate light and dark contribution snakes
         uses: Platane/snk/svg-only@v3
         with:
