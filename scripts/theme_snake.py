@@ -30,9 +30,10 @@ def rain(height):
     for x in range(14, WIDTH, 46):
         chars = "".join(rng.choice(alphabet) for _ in range(12))
         ys = " ".join(str(n * 14) for n in range(12))
+        xs = " ".join("0" for _ in range(12))
         duration = rng.uniform(12, 24)
         columns.append(
-            f'<g transform="translate({x} {rng.randrange(0, 60)})"><text y="{ys}" font-size="12" fill="url(#rainFade)" class="rain" '
+            f'<g transform="translate({x} {rng.randrange(0, 60)})"><text x="{xs}" y="{ys}" font-size="12" fill="url(#rainFade)" class="rain" '
             f'style="animation-duration:{duration:.1f}s;animation-delay:-{rng.uniform(0, duration):.1f}s">{chars}</text></g>'
         )
     return "".join(columns)

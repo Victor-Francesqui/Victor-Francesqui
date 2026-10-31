@@ -31,7 +31,7 @@ class ActivityCardTest(unittest.TestCase):
 
     def test_renders_valid_svg_with_every_value_for_each_theme(self):
         stats = summarize(user_with([1, 0, 4]))
-        for theme in ("dark", "light"):
+        for theme in ("dark",):
             svg = render_card(stats, theme)
             ET.fromstring(svg)
             for value, label in stats:

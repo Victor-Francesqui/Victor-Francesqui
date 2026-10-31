@@ -23,6 +23,14 @@ class ThemeSnakeTest(unittest.TestCase):
     def test_slows_the_animation(self):
         self.assertIn("18150ms", theme(SOURCE))
 
+    def test_rain_glyphs_stay_in_a_vertical_column(self):
+        root = ET.fromstring(theme(SOURCE))
+        rain = [node for node in root.iter("{http://www.w3.org/2000/svg}text") if node.get("class") == "rain"]
+        self.assertTrue(rain)
+        for node in rain:
+            self.assertEqual(len(node.get("x").split()), len(node.text))
+            self.assertEqual(set(node.get("x").split()), {"0"})
+
     def test_rejects_unknown_format(self):
         with self.assertRaises(ValueError):
             theme("<svg></svg>")

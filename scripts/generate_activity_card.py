@@ -22,8 +22,7 @@ query($login: String!) {
 """
 
 THEMES = {
-    "dark": {"bg": "#071521", "line": "#1B3040", "ink": "#F3F6F8", "muted": "#9BA6AE", "accent": "#31D4CE"},
-    "light": {"bg": "#F6F9FB", "line": "#D5DEE6", "ink": "#071521", "muted": "#4F6070", "accent": "#0F7F7B"},
+    "dark": {"bg": "#020805", "line": "#12A63F", "ink": "#EFFFF4", "muted": "#A5D0B2", "accent": "#39FF6A"},
 }
 
 

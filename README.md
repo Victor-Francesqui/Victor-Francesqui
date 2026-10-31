@@ -3,30 +3,30 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-dark.svg">
-  <img src="./assets/profile-banner-dark.svg" alt="Dev Francesqui — Desenvolvedor de software" width="100%">
+  <img src="./assets/profile-banner-dark.svg" alt="Victor Francesqui — Desenvolvedor de software" width="100%">
 </picture>
 
 <br/>
 
 <a href="https://github.com/Victor-Francesqui">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=31D4CE&center=true&vCenter=true&width=760&lines=%3E+APIs+e+integra%C3%A7%C3%B5es;%3E+Sistemas+web+e+evolu%C3%A7%C3%A3o+de+legados;%3E+TypeScript+%C2%B7+PHP+%C2%B7+JavaScript;%3E+NexFlow+%C2%B7+Siscredit+%C2%B7+Creditall+Services" alt="Frases animadas sobre desenvolvimento, tecnologias e projetos">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=39FF6A&background=020805&center=true&vCenter=true&width=760&lines=%3E+APIs+e+integra%C3%A7%C3%B5es;%3E+Sistemas+web+e+evolu%C3%A7%C3%A3o+de+legados;%3E+TypeScript+%C2%B7+PHP+%C2%B7+JavaScript;%3E+NexFlow+%C2%B7+Siscredit+%C2%B7+Creditall+Services" alt="Frases animadas sobre desenvolvimento, tecnologias e projetos">
 </a>
 
 <br/>
 
-<img src="https://img.shields.io/badge/foco-sistemas_web_e_APIs-31D4CE?style=flat-square&labelColor=071521" alt="Foco em sistemas web e APIs">
-<img src="https://img.shields.io/badge/IA-aplicada_ao_produto-8B7CFF?style=flat-square&labelColor=071521" alt="IA aplicada ao produto">
-<img src="https://komarev.com/ghpvc/?username=Victor-Francesqui&label=visitas&color=2AA4A0&style=flat-square&labelColor=071521" alt="Visualizações do perfil">
+<img src="https://img.shields.io/badge/foco-sistemas_web_e_APIs-12A63F?style=flat-square&labelColor=020805" alt="Foco em sistemas web e APIs">
+<img src="https://img.shields.io/badge/IA-aplicada_ao_produto-12A63F?style=flat-square&labelColor=020805" alt="IA aplicada ao produto">
+<img src="https://komarev.com/ghpvc/?username=Victor-Francesqui&label=visitas&color=12A63F&style=flat-square&labelColor=020805" alt="Visualizações do perfil">
 
 <br/><br/>
 
-<code><a href="#-sobre">./sobre</a></code> &nbsp;
-<code><a href="#-competências">./competências</a></code> &nbsp;
-<code><a href="#-stack">./stack</a></code> &nbsp;
-<code><a href="#-projetos">./projetos</a></code> &nbsp;
-<code><a href="#-ia-aplicada">./ia</a></code> &nbsp;
-<code><a href="#-atividade">./atividade</a></code> &nbsp;
-<code><a href="#-contato">./contato</a></code>
+<a href="#-sobre"><img src="https://img.shields.io/badge/%24-sobre-39FF6A?style=flat-square&labelColor=020805" alt="./sobre"></a> &nbsp;
+<a href="#-competências"><img src="https://img.shields.io/badge/%24-compet%C3%AAncias-39FF6A?style=flat-square&labelColor=020805" alt="./competências"></a> &nbsp;
+<a href="#-stack"><img src="https://img.shields.io/badge/%24-stack-39FF6A?style=flat-square&labelColor=020805" alt="./stack"></a> &nbsp;
+<a href="#-projetos"><img src="https://img.shields.io/badge/%24-projetos-39FF6A?style=flat-square&labelColor=020805" alt="./projetos"></a> &nbsp;
+<a href="#-ia-aplicada"><img src="https://img.shields.io/badge/%24-ia-39FF6A?style=flat-square&labelColor=020805" alt="./ia"></a> &nbsp;
+<a href="#-atividade"><img src="https://img.shields.io/badge/%24-atividade-39FF6A?style=flat-square&labelColor=020805" alt="./atividade"></a> &nbsp;
+<a href="#-contato"><img src="https://img.shields.io/badge/%24-contato-39FF6A?style=flat-square&labelColor=020805" alt="./contato"></a>
 
 </div>
 
@@ -34,61 +34,13 @@
 
 ## `$` sobre
 
-```ts
-const victor = {
-  role:       "Desenvolvedor de software",
-  focus:      ["sistemas empresariais", "APIs", "modernização de aplicações"],
-  linguagens: ["TypeScript", "PHP", "JavaScript", "SQL"],
-  abordagem:  "entender o problema → evoluir a solução → validar o resultado",
-};
-```
-
-> Gosto de transformar necessidades reais da operação em software claro, útil e sustentável.
+<img src="./assets/panel-sobre.svg" width="100%" alt="Desenvolvedor de software, com foco em sistemas empresariais, APIs e modernização de aplicações. Linguagens: TypeScript, PHP, JavaScript e SQL. Abordagem: entender o problema, evoluir a solução e validar o resultado. Gosto de transformar necessidades reais da operação em software claro, útil e sustentável.">
 
 <br/>
 
 ## `$` competências
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**`01` · Aplicações**
-
-```diff
-+ Interfaces em React
-+ APIs com NestJS
-+ Integração de sistemas
-+ Novas funcionalidades
-```
-
-</td>
-<td width="33%" valign="top">
-
-**`02` · Dados**
-
-```diff
-+ Modelagem e SQL
-+ PostgreSQL e MariaDB
-+ Persistência TypeORM
-+ Dados já existentes
-```
-
-</td>
-<td width="33%" valign="top">
-
-**`03` · Sistemas**
-
-```diff
-+ ERPs empresariais
-+ Sistemas legados
-+ Modernização gradual
-+ Regras de negócio
-```
-
-</td>
-</tr>
-</table>
+<img src="./assets/panel-competencias.svg" width="100%" alt="Aplicações: interfaces web com React, APIs e serviços com NestJS, integrações entre sistemas e evolução de funcionalidades. Dados: consultas e modelagem SQL, PostgreSQL e MariaDB, persistência com TypeORM e integração com dados existentes. Sistemas: ERPs e aplicações empresariais, manutenção de sistemas legados, modernização incremental, fluxos de negócio e regras.">
 
 <br/>
 
@@ -96,165 +48,68 @@ const victor = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,php,python,go,bash,html,css&theme=dark" alt="TypeScript, JavaScript, PHP, Python, Go, Bash, HTML e CSS">
+<img src="https://img.shields.io/badge/TypeScript-020805?style=flat-square&logo=typescript&logoColor=39FF6A" alt="TypeScript">
+<img src="https://img.shields.io/badge/JavaScript-020805?style=flat-square&logo=javascript&logoColor=39FF6A" alt="JavaScript">
+<img src="https://img.shields.io/badge/PHP-020805?style=flat-square&logo=php&logoColor=39FF6A" alt="PHP">
+<img src="https://img.shields.io/badge/Python-020805?style=flat-square&logo=python&logoColor=39FF6A" alt="Python">
+<img src="https://img.shields.io/badge/Go-020805?style=flat-square&logo=go&logoColor=39FF6A" alt="Go">
+<img src="https://img.shields.io/badge/Bash-020805?style=flat-square&logo=gnubash&logoColor=39FF6A" alt="Bash">
+<img src="https://img.shields.io/badge/HTML-020805?style=flat-square&logo=html5&logoColor=39FF6A" alt="HTML">
+<img src="https://img.shields.io/badge/CSS-020805?style=flat-square&logo=css&logoColor=39FF6A" alt="CSS">
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,nodejs,nestjs,prisma&theme=dark" alt="React, Next.js, Vite, Tailwind CSS, Node.js, NestJS e Prisma">
+<img src="https://img.shields.io/badge/React-020805?style=flat-square&logo=react&logoColor=39FF6A" alt="React">
+<img src="https://img.shields.io/badge/Next.js-020805?style=flat-square&logo=nextdotjs&logoColor=39FF6A" alt="Next.js">
+<img src="https://img.shields.io/badge/Vite-020805?style=flat-square&logo=vite&logoColor=39FF6A" alt="Vite">
+<img src="https://img.shields.io/badge/Tailwind_CSS-020805?style=flat-square&logo=tailwindcss&logoColor=39FF6A" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/Node.js-020805?style=flat-square&logo=nodedotjs&logoColor=39FF6A" alt="Node.js">
+<img src="https://img.shields.io/badge/NestJS-020805?style=flat-square&logo=nestjs&logoColor=39FF6A" alt="NestJS">
+<img src="https://img.shields.io/badge/Prisma-020805?style=flat-square&logo=prisma&logoColor=39FF6A" alt="Prisma">
+<img src="https://img.shields.io/badge/TypeORM-020805?style=flat-square&logo=typeorm&logoColor=39FF6A" alt="TypeORM">
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,linux,githubactions,git,github&theme=dark" alt="PostgreSQL, MySQL, Docker, Linux, GitHub Actions, Git e GitHub">
-
-<br/>
-
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-![TypeORM](https://img.shields.io/badge/TypeORM-E83524?style=flat-square&logo=typeorm&logoColor=white)
-![XML](https://img.shields.io/badge/XML-0060AC?style=flat-square&logo=xml&logoColor=white)
-![XSD](https://img.shields.io/badge/XSD-526577?style=flat-square)
-![YAML](https://img.shields.io/badge/YAML-824AFC?style=flat-square&logo=yaml&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-222222?style=flat-square&logo=json&logoColor=white)
+<img src="https://img.shields.io/badge/PostgreSQL-020805?style=flat-square&logo=postgresql&logoColor=39FF6A" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/MariaDB-020805?style=flat-square&logo=mariadb&logoColor=39FF6A" alt="MariaDB">
+<img src="https://img.shields.io/badge/MySQL-020805?style=flat-square&logo=mysql&logoColor=39FF6A" alt="MySQL">
+<img src="https://img.shields.io/badge/Docker-020805?style=flat-square&logo=docker&logoColor=39FF6A" alt="Docker">
+<img src="https://img.shields.io/badge/Linux-020805?style=flat-square&logo=linux&logoColor=39FF6A" alt="Linux">
+<img src="https://img.shields.io/badge/GitHub_Actions-020805?style=flat-square&logo=githubactions&logoColor=39FF6A" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/Git-020805?style=flat-square&logo=git&logoColor=39FF6A" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-020805?style=flat-square&logo=github&logoColor=39FF6A" alt="GitHub">
 
 </div>
 
-<details>
-<summary><code>cat stack.yml</code></summary>
-
 <br/>
 
-```yaml
-linguagens:     [TypeScript, JavaScript, PHP, SQL]
-frontend:       [React, Next.js, Vite, Tailwind CSS]
-backend:        [Node.js, NestJS, TypeORM, Prisma]
-dados:          [PostgreSQL, MariaDB]
-web:            [HTML, CSS, JSX/TSX, Vue SFC]
-scripts:        [Python, Go, Bash]
-configuracao:   [JSON, YAML]
-schemas:        [XML, XSD, SQL]
-contato-legado: [Java/JSP, Ruby em componentes integrados]
-ferramentas:    [Docker, Linux, Git, GitHub Actions]
-```
-
-</details>
+<img src="./assets/panel-stack.svg" width="100%" alt="Linguagens: TypeScript, JavaScript, PHP e SQL. Frontend: React, Next.js, Vite e Tailwind CSS. Backend: Node.js, NestJS, TypeORM e Prisma. Dados: PostgreSQL e MariaDB. Web: HTML, CSS, JSX/TSX e Vue SFC. Scripts: Python, Go e Bash. Configuração: JSON e YAML. Schemas: XML, XSD e SQL. Contato com legado: Java/JSP e Ruby em componentes integrados. Ferramentas: Docker, Linux, Git e GitHub Actions.">
 
 <br/>
 
 ## `$` projetos
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**`nexflow`** · ERP web
-
-ERP para gestão de negócios, com foco em varejo óptico. Trabalho em módulos e integrações.
-
-<sub><code>TypeScript</code> <code>React</code> <code>NestJS</code> <code>PostgreSQL</code> <code>TypeORM</code></sub>
-
-</td>
-<td width="50%" valign="top">
-
-**`siscredit`** · sistema empresarial
-
-Evolução de módulos existentes, área do cliente e funcionalidades de ponto.
-
-<sub><code>PHP</code> <code>JavaScript</code> <code>SQL</code> <code>MariaDB</code></sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**`creditall-services`** · serviços e APIs
-
-Serviços do ecossistema Creditall, incluindo funcionalidades integradas ao Siscredit.
-
-<sub><code>TypeScript</code> <code>Node.js</code> <code>NestJS</code> <code>SQL</code></sub>
-
-</td>
-<td width="50%" valign="top">
-
-**`wulfy-erp`** · SaaS em construção
-
-ERP e plataforma SaaS, com frontend e backend em TypeScript e banco PostgreSQL.
-
-<sub><code>TypeScript</code> <code>Next.js</code> <code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code></sub>
-
-</td>
-</tr>
-</table>
+<img src="./assets/panel-projetos.svg" width="100%" alt="NexFlow: ERP para gestão de negócios, com foco em varejo óptico; trabalho em módulos e integrações. Siscredit: evolução de módulos existentes, área do cliente e funcionalidades de ponto. Creditall Services: serviços do ecossistema Creditall, incluindo funcionalidades integradas ao Siscredit. Wulfy ERP: ERP e plataforma SaaS em construção, com TypeScript e PostgreSQL.">
 
 <br/>
 
 ## `$` IA aplicada
 
-<div align="center">
-
 <img src="./assets/ia-aplicada-matrix.svg" width="100%" alt="Escritório isométrico em pixel art com tema Matrix: Morpheus mapeia o código, Trinity analisa o contexto, Smith conecta os serviços, o Operador valida as regras e Neo confirma a decisão final">
 
-<sub><code>agents.office</code> — cada agente representa uma etapa real dos fluxos que construo</sub>
+<br/><br/>
 
-</div>
+<img src="./assets/panel-fluxos.svg" width="100%" alt="IA em dois lugares: no desenvolvimento, para preparar contexto antes de cada alteração, e no produto, com permissões, regras versionadas e revisão humana. Graphify, contexto, gateway, privacidade, ferramentas validadas, regras e rastro.">
 
-<br/>
+<br/><br/>
 
-IA em dois lugares: **no desenvolvimento**, para preparar contexto antes de cada alteração, e **no produto**, com permissões, regras versionadas e revisão humana.
-
-```bash
-$ ia --fluxos
-  ├── graphify      mapa local do código, extraído da estrutura e sem chamar LLM
-  ├── contexto      query, path e explain para localizar dependências
-  ├── gateway       Anthropic, provedores compatíveis com OpenAI ou IA desligada
-  ├── privacidade   dados pessoais mascarados antes da chamada
-  ├── ferramentas   consultas e ferramentas validadas
-  ├── regras        conhecimento estruturado e motor determinístico
-  └── rastro        entradas, versões das regras, participação da IA e resultado
-```
-
-<details open>
-<summary><code>cat fluxo-nexflow.mmd</code></summary>
-
-<br/>
-
-```mermaid
-flowchart LR
-    U([Usuário]) --> C[Contexto e permissões]
-    C --> M[Mascaramento de dados]
-    M --> G{{Gateway de IA}}
-    G --> F[Ferramentas validadas]
-    F --> P[Proposta de ação]
-    P --> H([Confirmação humana])
-
-    K[(Conhecimento versionado)] --> R[Motor determinístico]
-    R -- incerteza --> H
-    H --> T[(Rastro da decisão)]
-    R --> T
-
-    classDef ai fill:#8B7CFF,stroke:#B9B0FF,color:#071521
-    classDef data fill:#0C1D2B,stroke:#31D4CE,color:#F3F6F8
-    class G,P ai
-    class K,T data
-```
-
-</details>
-
-> [!IMPORTANT]
-> No NexFlow, a IA propõe e a pessoa confirma. Regras determinísticas e o rastro de cada decisão ficam fora do modelo.
+<img src="./assets/panel-fluxo-nexflow.svg" width="100%" alt="Fluxo do NexFlow: usuário, contexto e permissões, mascaramento de dados, gateway de IA, ferramentas validadas, proposta de ação e confirmação humana. Conhecimento versionado alimenta o motor determinístico, e cada decisão fica registrada. A IA propõe e a pessoa confirma.">
 
 <br/>
 
 ## `$` atividade
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/activity-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/activity-light.svg">
-  <img width="100%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/activity-dark.svg" alt="Contribuições, dias ativos, maior sequência e repositórios públicos">
-</picture>
+<img width="100%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/activity-dark.svg" alt="Contribuições, dias ativos, maior sequência e repositórios públicos">
 
 <br/><br/>
 
 <img width="100%" src="https://raw.githubusercontent.com/Victor-Francesqui/Victor-Francesqui/output/github-snake-matrix.svg" alt="Painel com tema Matrix: uma cobrinha verde neon percorre o gráfico de contribuições do GitHub">
-
-</div>
 
 <br/>
 
@@ -263,16 +118,15 @@ flowchart LR
 <div align="center">
 
 <a href="https://github.com/Victor-Francesqui">
-  <img src="https://img.shields.io/badge/GitHub-071521?style=for-the-badge&logo=github&logoColor=31D4CE" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-020805?style=for-the-badge&logo=github&logoColor=39FF6A" alt="GitHub">
 </a>
 
-<br/><br/>
+</div>
 
-```console
-$ echo $MOTTO
-Entender o problema. Construir a solução. Melhorar continuamente.
-```
+<br/>
+
+<img src="./assets/panel-motto.svg" width="100%" alt="Entender o problema. Construir a solução. Melhorar continuamente.">
+
+<br/>
 
 <img src="./assets/footer-matrix.svg" width="100%" alt="">
-
-</div>
