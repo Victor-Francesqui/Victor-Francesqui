@@ -187,7 +187,7 @@ ERP e plataforma SaaS, com frontend e backend em TypeScript e banco PostgreSQL.
 
 <div align="center">
 
-<img src="./assets/ia-aplicada.svg" width="100%" alt="Fluxos de IA no desenvolvimento com Graphify e no NexFlow, com contexto, permissões, revisão humana e rastreabilidade">
+<img src="./assets/ia-aplicada-matrix.svg" width="100%" alt="Escritório isométrico em pixel art com tema Matrix: Morpheus mapeia o código, Trinity analisa o contexto, Smith conecta os serviços, o Operador valida as regras e Neo confirma a decisão final">
 
 <sub><code>agents.office</code> — cada agente representa uma etapa real dos fluxos que construo</sub>
 
