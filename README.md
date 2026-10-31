@@ -48,32 +48,21 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/TypeScript-020805?style=flat-square&logo=typescript&logoColor=39FF6A" alt="TypeScript">
-<img src="https://img.shields.io/badge/JavaScript-020805?style=flat-square&logo=javascript&logoColor=39FF6A" alt="JavaScript">
-<img src="https://img.shields.io/badge/PHP-020805?style=flat-square&logo=php&logoColor=39FF6A" alt="PHP">
-<img src="https://img.shields.io/badge/Python-020805?style=flat-square&logo=python&logoColor=39FF6A" alt="Python">
-<img src="https://img.shields.io/badge/Go-020805?style=flat-square&logo=go&logoColor=39FF6A" alt="Go">
-<img src="https://img.shields.io/badge/Bash-020805?style=flat-square&logo=gnubash&logoColor=39FF6A" alt="Bash">
-<img src="https://img.shields.io/badge/HTML-020805?style=flat-square&logo=html5&logoColor=39FF6A" alt="HTML">
-<img src="https://img.shields.io/badge/CSS-020805?style=flat-square&logo=css&logoColor=39FF6A" alt="CSS">
+<img src="https://skillicons.dev/icons?i=ts,js,php,python,go,bash,html,css&theme=dark" alt="TypeScript, JavaScript, PHP, Python, Go, Bash, HTML e CSS">
 <br/>
-<img src="https://img.shields.io/badge/React-020805?style=flat-square&logo=react&logoColor=39FF6A" alt="React">
-<img src="https://img.shields.io/badge/Next.js-020805?style=flat-square&logo=nextdotjs&logoColor=39FF6A" alt="Next.js">
-<img src="https://img.shields.io/badge/Vite-020805?style=flat-square&logo=vite&logoColor=39FF6A" alt="Vite">
-<img src="https://img.shields.io/badge/Tailwind_CSS-020805?style=flat-square&logo=tailwindcss&logoColor=39FF6A" alt="Tailwind CSS">
-<img src="https://img.shields.io/badge/Node.js-020805?style=flat-square&logo=nodedotjs&logoColor=39FF6A" alt="Node.js">
-<img src="https://img.shields.io/badge/NestJS-020805?style=flat-square&logo=nestjs&logoColor=39FF6A" alt="NestJS">
-<img src="https://img.shields.io/badge/Prisma-020805?style=flat-square&logo=prisma&logoColor=39FF6A" alt="Prisma">
-<img src="https://img.shields.io/badge/TypeORM-020805?style=flat-square&logo=typeorm&logoColor=39FF6A" alt="TypeORM">
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,nodejs,nestjs,prisma&theme=dark" alt="React, Next.js, Vite, Tailwind CSS, Node.js, NestJS e Prisma">
 <br/>
-<img src="https://img.shields.io/badge/PostgreSQL-020805?style=flat-square&logo=postgresql&logoColor=39FF6A" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/MariaDB-020805?style=flat-square&logo=mariadb&logoColor=39FF6A" alt="MariaDB">
-<img src="https://img.shields.io/badge/MySQL-020805?style=flat-square&logo=mysql&logoColor=39FF6A" alt="MySQL">
-<img src="https://img.shields.io/badge/Docker-020805?style=flat-square&logo=docker&logoColor=39FF6A" alt="Docker">
-<img src="https://img.shields.io/badge/Linux-020805?style=flat-square&logo=linux&logoColor=39FF6A" alt="Linux">
-<img src="https://img.shields.io/badge/GitHub_Actions-020805?style=flat-square&logo=githubactions&logoColor=39FF6A" alt="GitHub Actions">
-<img src="https://img.shields.io/badge/Git-020805?style=flat-square&logo=git&logoColor=39FF6A" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-020805?style=flat-square&logo=github&logoColor=39FF6A" alt="GitHub">
+<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,linux,githubactions,git,github&theme=dark" alt="PostgreSQL, MySQL, Docker, Linux, GitHub Actions, Git e GitHub">
+
+<br/>
+
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![TypeORM](https://img.shields.io/badge/TypeORM-E83524?style=flat-square&logo=typeorm&logoColor=white)
+![XML](https://img.shields.io/badge/XML-0060AC?style=flat-square&logo=xml&logoColor=white)
+![XSD](https://img.shields.io/badge/XSD-526577?style=flat-square)
+![YAML](https://img.shields.io/badge/YAML-824AFC?style=flat-square&logo=yaml&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-222222?style=flat-square&logo=json&logoColor=white)
 
 </div>
 
